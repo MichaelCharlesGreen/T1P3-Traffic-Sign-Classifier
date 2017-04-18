@@ -198,3 +198,12 @@ A screenshot of the results:
 
 ![alt text][image9]
 
+For the 1st image, the model does not predict that this is a Speed limit (50km/h) sign. The 2nd and 5th guesses, at 0.10 and 0.8 did predict speed limit signs of 20km/h and 60km/h.
+
+For the 2nd image, the model is relatively sure that this is a Right-of-way at the next intersection  sign (probability of 0.69), and the image does contain a Right-of-way at the next intersection sign.
+
+For the 3rd image, the model is even more confident that this is a Priority road sign (probability of 0.6), and the image does contain a Priority road sign.
+
+For the 4th image, the model is certain that this is a Yield sign (probability of 1.0), and the image does contain a Yield sign.
+
+For the 5th image, the model is certain that this is a No entry sign (probability of 1.0), and the image does contain a No entry sign.
